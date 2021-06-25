@@ -46,7 +46,7 @@ function draw() {
 
 function keyPressed(){
 
-      Matter.Body.applyForce(paper1.body, paper1.body.position, {x: 15,y: -15})
+      Matter.Body.applyForce(ball.body, ball.body.position, {x: 15,y: -15})
 
   }
 
